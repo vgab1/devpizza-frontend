@@ -25,16 +25,16 @@
     &:hover {
       color: var(--red-900);
     }
+  }
+  
+  button {
+    border: 0;
+    background: transparent;
+    margin-left: 16px;
+    transition: transform 0.8s;
 
-    button {
-      border: 0;
-      background: transparent;
-      margin-left: 16px;
-      transition: transform 0.8s;
-
-      &:hover {
-        transform: scale(1.2);
-      }
+    &:hover {
+      transform: scale(1.2);
     }
   }
 }
