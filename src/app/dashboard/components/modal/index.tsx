@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 import { use } from "react";
 import { OrderContext } from "@/providers/order";
 import { calculateTotalOrder } from "@/lib/helper";
+import Image from "next/image";
 
 export function ModalOrder() {
   const { onRequestClose, order, finishOrder } = use(OrderContext);
@@ -31,6 +32,13 @@ export function ModalOrder() {
           )}
           {order.map((item) => (
             <section className={styles.item} key={item.id}>
+              <Image
+                className={styles.image}
+                src={item.product.banner}
+                alt="Foto do produto"
+                width={70}
+                height={70}
+              />
               <span>
                 Qtd: {item.amont} - <b>{item.product.name}</b> - R${" "}
                 {parseFloat(item.product.price) * item.amont}
