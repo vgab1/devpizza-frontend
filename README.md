@@ -21,7 +21,7 @@ Este é um projeto de sistema de Pizzaria, com objetivo principal de organizar e
 
 ## Descrição Geral
 
-O **Sujeito Pizza** é um sistema completo para pizzarias, onde:
+O **DevPizza** é um sistema completo para pizzarias, onde:
 - **Garçons** usam um aplicativo mobile para realizar pedidos e gerenciar atendimentos.
 - **Cozinha** usa uma interface web para visualizar e preparar os pedidos.
 - **Backend** gerencia toda a lógica de negócios, incluindo pedidos, produtos, autenticação e integração com serviços externos (como Cloudinary para upload de imagens).
