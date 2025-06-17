@@ -112,6 +112,7 @@ Para executar o projeto é preciso estar com o ambiente [backend](https://github
 ## Links Úteis
 
 - Repositório do Backend: [https://github.com/vgab1/devpizza-backend](https://github.com/vgab1/devpizza-backend)
+- Repositório do Mobile: [https://github.com/vgab1/devpizza-mobile](https://github.com/vgab1/devpizza-mobile)
 
 ## Contato
 
